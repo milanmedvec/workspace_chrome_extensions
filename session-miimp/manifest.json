@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Reset Tabs",
+  "version": "1.0",
+  "description": "Close all tabs and open predefined pinned tabs",
+  "permissions": ["tabs"],
+  "action": {
+    "default_title": "Reset Tabs"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
